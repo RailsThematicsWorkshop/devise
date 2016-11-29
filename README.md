@@ -1,5 +1,10 @@
 # Set-up authentication with devise & omniauth
 
+Welcome ! 
+
+The goal of this workshop is to add an authentication mechanism to a sample rails application thanks to the devise gem.
+You will be guided through setting up devise and a confirmation module, once it is done, and if you want to go further, you'll have to read the docs and dig a little bit, but don't worry, we'll be here to help.
+
 Download our sample app fotoklub [here](https://github.com/RailsThematicsWorkshop/fotoklub/archive/0.0.1.zip)
 
 Open the docs for quick reference : 
@@ -137,3 +142,13 @@ Add `:confirmable` to the devise modules in user.rb
 
 
 Restart your server and you should be all set
+
+### Now what ? 
+
+Congratulations ! You successfully added devise to a rails project and used a devise module !
+
+Thirsty for more ? Here's a suggestion of things to do, don't hesitate to ask for directions or help :
+
+- Use Omniauth to implement login with facebook / twitter / google / etc.
+- Add other devise modules, like lockable, to prevent a user from trying to log in too much
+- Use devise callbacks to send a welcome email to the user when they confirm their account
